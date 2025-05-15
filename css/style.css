@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-messege{
+    padding: 10px;
+    width: auto;
+    height: 38px;
+    text-align: center;
+    background-color: #25935f;
+    color: white ;
+}
+.first-header {
+    background: #ebe6e6;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+.first-header span {
+    color: #1c6643;
+}
+.btn1 {
+    background: #ebe6e6;
+    border: #ebe6e6;
+}
+.main-btn-head {
+    padding: 10px;
+    margin-left: 90px;
+    display: flex;
+    gap: 20px;
+}
+.main-btn-head2{
+    display: flex;
+    padding: 10px;
+     gap: 15px;
+}
+.btn-head2box{
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(252, 252, 252);   
+    background-color: white;    
+    padding: 6px;
+    margin-left: 40px;
+    border-radius: 10px; 
+}
+.btn-head2box button{
+    background-color: #ffffff;
+    border: 1px solid#fff;
+}
+.btn-head2box p{
+    margin-top: 3px;
+}
+.btn-head2box .plus-img{
+     width: 20px;
+     padding: 1px;
+}
+.btn-head2box .minus-img{
+     width: 15px;
+     height: 17px;
+     margin-top: 3px;
+}
+.arbi {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    ;
+}
+.arbi-p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.arbi-icon {
+    font-size: 20px;
+    font-weight: 200;
+}
+.third-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -8px;
+}
+.links{
+    display: flex;
+    margin-right: 130px;
+}
+.links ul {
+    display: flex;
+    align-items: center;
+}
+.links li {
+    list-style: none;   
+    background-color: white;
+    border: 1px solid#ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.links li a {
+    border-radius: 12px;
+    cursor: pointer;
+    padding-inline: 15px;
+    padding-block: 30px;
+    width: auto;
+    height: auto;
+    transition: 0.3s all;
+    text-decoration: none;
+}
+.links li a i {
+    padding-inline-start: 5px;
+}
+.links li a:hover{
+    background-color: #e0d5d5;  
+}
+.active a {
+    padding: 30px;
+    background-color:  #25935f;
+    color: #ffffff;
+    border-radius: 12px;
+    width: auto;
+    height: auto;
+}
+.b-logo-img {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.b-logo-img img {
+    width: 200px;
+}
+.background-img img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.map-img img{
+    width: 100%;
+   margin-top: -109px;
+}
+.map-img img:hover{
+    cursor: pointer;
+    overflow: auto;
+}
+.main-section1 {
+    width: 1200px;
+    
+}

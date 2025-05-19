@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <title>Home Page | National Center For Meteorology</title>
     <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
 </head>
@@ -68,7 +71,7 @@
         </div>
       </div>
     </header>
-    <main>
+     <main>
         <div class="background-img">
             <img src="images/background.png" alt="its a background image">
         </div>
@@ -79,10 +82,22 @@
                 <h3>Alerts</h3>
             </div>
         </div>
-        <section>
+        <div data-aos="fade-up">
+           <section>
             <div class="abha"> 
                 <h2 class="abha-h1">Abha</h2>
                 <p class="p-ahha">10 Days Forcast</p>
+                <div class="side-abha">
+                  <button>Current Location</button>
+                  <button class="other-location">Other Locations</button>
+                  <select name="city" id="city">
+                    <option value="Abha">Abha</option>
+                    <option value="Al-ahsa">Al-ahsa</option>
+                    <option value="Al Bahah">Al Bahah</option>
+                    <option value="Arafat">Arafat</option>
+                    <option value="Arar">Arar</option>
+                  </select>
+                </div>
               </div>
             <div class="container">
               <div class="box-container">
@@ -220,13 +235,22 @@
            </div>
         </div>
       </section>
-      <section>
+        </div>
+        <div data-aos="fade-up">
+         <section>
+          <div class="three-btns">
+            <button class="btns1">Latest News</button>
+            <button class="btns">Latest Events</button>
+            <button class="btns">Media Gallery</button>
+            <button class="btns">Latest X Posts</button>
+          </div>
         <div class="main-2 container">
             <div class="card">
             <div class="image">
                 <img src="images/sheikh1.webp" alt="">
                 <p class="text">4 December 2024</p>
                 <h2>The center celebrates 14 years since the launch as part of the COP16 Riyadh conference </h2>
+                <button><i class="fa-solid fa-arrow-right"></i>Read more</button>
             </div>
         </div>
          <div class="card">
@@ -234,6 +258,7 @@
                 <img src="images/sheikh2.webp" alt="">
                 <p class="text">4 December 2024</p>
                 <h2>Global Partnership to Enhance Early  Warning System to Stand and Dust Storm</h2>
+                <button><i class="fa-solid fa-arrow-right"></i>Read more</button>
             </div>
         </div>
          <div class="card">
@@ -241,11 +266,69 @@
                 <img src="images/sheikh-calender3.webp" alt="">
                 <p class="text">13 November 2024</p>
                 <h2>he National Center of meteorology achieved a media presence of 87.8% in 2024</h2>
+                <button><i class="fa-solid fa-arrow-right"></i>Read more</button>
             </div>
         </div>
         </div>
       </section>
+        </div>
+      <div data-aos="fade-up">
+        <section>
+        <div class="center-service-platform">
+          <div class="center-service-h1">
+            <h1>Center Services and Platforms</h1>
+          </div>
+          <div class="slider-slick">
+              <div class="slick-div"><h3>Licensing and Permit Services </h3><p>Category:Main Services in weather applications services for updates</p><button>Show Details</button><button class="request-btn">Request Service</button></div>
+              <div class="slick-div"><h3>Meteo Portal </h3><p>Category:Main Services updates and change any type of weather requirement</p><button>Show Details</button><button class="request-btn">Request Service</button></div>
+              <div class="slick-div"><h3>"Anwaa"Application</h3><p>Category:Main Services and Weather updates for any reigion</p><button>Show Details</button><button class="request-btn">Request Service</button></div>
+              <div class="slick-div"><h3>Non-Profit Services License Request</h3><p>Category:Meteorogical Permits , Liencses</p><p>Tags:Entity Services</p><button>Show Details</button><button class="request-btn">Request Service</button></div>
+              <div class="slick-div"><h3>Request to License to Perform Installation </h3><p>Category:Meteorogical Permits , Liencses</p><p>Tags:Entity Services</p><button>Show Details</button><button class="request-btn">Request Service</button></div>
+              <div class="slick-div"><h3>Installation and Maintenance Services</h3><p>Category:Meteorogical Permits , Liencses</p><p>Tags:Entity Services</p><button>Show Details</button><button class="request-btn">Request Service</button></div>
+          </div>
+        </div>
+        </section>
+      </div>
+      <div data-aos="fade-up">
+        <section>
+          <div class="meteo-ksa">
+            <div class="meteo-ksa-h1"><h1>MeteoKSA-Advance Weather Management</h1>
+            <P>MeteoKSA an Advance weather Management portal, empowers government and private entities with customizable location-based alerts, 10 days forecasts, and access to comprehensive weather station data across the kingdom of Saudi Arabia, enhancing decision making and preparedness.</P>          
+          </div>
+          <ul>
+            <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i><p>Add Custom Locations</p></li>
+            <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i><p>Weather Station Data Across the Kingdom</p></li>
+            <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i><p>Create Custom Notifications</p></li>
+            <li><i class="fa-solid fa-star" style="color: #FFD43B;"></i><p>View 10-day and Hourly Forecast</p></li>
+            <div class="explore-btn-meteo"><button><i class="fa-solid fa-arrow-right"></i>Explore More</button></div>
+          </ul>
+          </div>
+        </section>
+      </div>
+      <div data-aos="fade-up">
+       <section>
+        <div class="regional-program">
+          <h1>Regional Programs and Centers</h1>
+          <div class="regional-program-images">
+            <img class="regional-imgs" src="images/regional-program1.webp" alt="image 1">
+            <img class="regional-imgs" src="images/regional-program2.webp" alt="image 2">
+            <img class="regional-imgs" src="images/regional-program3.webp" alt="image 3">
+          </div>
+        </div>
+       </section>
+      </div>
+      <div data-aos="fade-up">
+        <section>
+          <div class="stay-updated">
+              <img src="images/stay-updated-background.png" alt="its an a background-image">
+          </div>
+        </section>
+      </div>
     </main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
 
